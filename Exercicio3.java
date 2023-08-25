@@ -23,7 +23,7 @@ public class Exercicio3 {
     public static void imprimirVetor(int[] vetor, int tamanho) {
         for (int i = 0; i < tamanho; i++) {
             Scanner teclado = new Scanner(System.in);
-            System.out.printf("Vetor[%d] = %d", i, vetor[i]);
+            System.out.printf("Vetor[%d] = %d \n", i, vetor[i]);
         }
     }
 
